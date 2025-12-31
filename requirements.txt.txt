@@ -1,4 +1,6 @@
-streamlit
+estreamlit
 google-generativeai
 apify-client
 pandas
+pypdf
+fpdf2
