@@ -6,8 +6,8 @@ import hashlib
 import re
 
 # KEYS
-GOOGLE_KEY = "AIzaSyBpZZrXuJ83y4bUlMdn_iKZR7-EcnuCb90"
-APIFY_TOKEN = "apify_api_llbGqUoTI78iGRdsWDkn73kGTY5ACo3fyAfP"
+GOOGLE_KEY = st.secrets["GOOGLE_KEY"]
+APIFY_TOKEN = st.secrets["APIFY_TOKEN"]
 
 genai.configure(api_key=GOOGLE_KEY)
 
