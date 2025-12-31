@@ -1,4 +1,4 @@
-estreamlit
+streamlit
 google-generativeai
 apify-client
 pandas
